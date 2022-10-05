@@ -1,7 +1,12 @@
 # estudo-devops-vagrant
 
-Estudos de Vagrant
+> Estudos de Vagrant
 
+Vagrant é um software de código aberto, criado pela Hashcorp, para criar e manter ambientes de desenvolvimento virtuais portáteis, utilizando VirtualBox, KVM, Hyper-V, Docker Containers, VMware e AWS.
+
+Ele tenta simplificar a gerência de configuração de sofwtare das virtualizações para aumentar a produtividade do desenvolvimento. 
+
+---
 ### 1.Introdução ###
 
 a) Instalar um hipervisor (Preferencialmente o VirtualBox - https://www.virtualbox.org/)
@@ -41,3 +46,4 @@ h) Apagar a máquina virtual
 ```bash
 vagrant destroy
 ```
+---
