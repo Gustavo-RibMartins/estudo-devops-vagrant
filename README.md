@@ -13,7 +13,7 @@ a) Instalar um hipervisor (Preferencialmente o VirtualBox - https://www.virtualb
 
 b) Instalar o Vagrant (https://www.vagrantup.com/)
 
-c) Criar uma pasta/diretório e criar um Vagrantfile com uma distribuição linux de sua preferência.
+c) Criar uma pasta/diretório e criar um `Vagrantfile` com uma distribuição linux de sua preferência.
 
 Exemplo:
 ```bash
@@ -27,6 +27,7 @@ exemplo de init:
 vagrant init debian/jessie64
 ```
 Onde ver a distribuição: https://app.vagrantup.com/boxes/search
+Se usar `vagrant init -m` o Vagrantfile é criado sem todos os comentários.
 
 e) Inicializar a máquina virtual
 ```bash
@@ -47,3 +48,10 @@ h) Apagar a máquina virtual
 vagrant destroy
 ```
 ---
+### 2. asasf
+
+Para listar os boxes instalados
+
+```
+vagrant box list
+```
