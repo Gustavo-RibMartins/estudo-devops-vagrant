@@ -47,11 +47,3 @@ h) Apagar a máquina virtual
 ```bash
 vagrant destroy
 ```
----
-### 2. asasf
-
-Para listar os boxes instalados
-
-```
-vagrant box list
-```
