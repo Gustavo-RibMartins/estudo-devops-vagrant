@@ -1,0 +1,34 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+    config.vm.define "Ubuntu Server" do |ubuntu|
+        ubuntu.vm.box = "ubuntu/focal64"
+        ubuntu.vm.network "private_network", ip: "10.0.1.20"
+        ubuntu.vm.provider "virtualbox" do |vb|
+          vb.memory = "512"
+          vb.cpus = 1
+        end
+        ubuntu.vm.provision "shell", inline: <<-SHELL
+            apt-get update
+            apt-get install -y apache2
+        SHELL
+    end
+    config.vm.define "CentOS" do |centOS|
+        centOS.vm.box = "centos/7"
+        centOS.vm.network "private_network", ip: "10.0.1.30"
+        centOS.vm.provider "virtualbox" do |vb|
+          vb.memory = "1024"
+          vb.cpus = 1
+        end
+    end
+    config.vm.define "Windows 10" do |win10|
+        win10.vm.box = "Microsoft/EdgeOnWindows10"
+        win10.vm.network "private_network", ip: "10.0.1.10"
+        win10.vm.provider "virtualbox" do |vb|
+            vb.memory = "512"
+            vb.cpus = 1
+        end
+    end
+end
