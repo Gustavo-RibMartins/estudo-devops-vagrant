@@ -50,6 +50,6 @@ vagrant destroy
 ---
 ### Rerências
 
-[Livro sobre Virtualização](https://gus-bucket-pessoal.s3.us-east-2.amazonaws.com/estudos/Virtualizacao/Next-Gen_Virtualization_FD_VMware_Special_Edition+(1).pdf): Next Gen Virtualization - VMWare.
+[Livro sobre Virtualização](https://gus-bucket-publico.s3.amazonaws.com/Vagrant/Next-Gen_Virtualization_FD_VMware_Special_Edition+(1).pdf): Next Gen Virtualization - VMWare.
 
-[Slides](https://gus-bucket-pessoal.s3.us-east-2.amazonaws.com/estudos/Virtualizacao/Virtualiza%C3%A7%C3%A3o+e+Automa%C3%A7%C3%A3o.pptx): Material da aula de Virtualização com Vagrant do MBA em Cloud e DevOps.
+[Slides](https://gus-bucket-publico.s3.amazonaws.com/Vagrant/Virtualizacao-e-Automacao.pdf): Material da aula de Virtualização com Vagrant do MBA em Cloud e DevOps.
